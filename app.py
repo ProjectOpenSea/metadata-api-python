@@ -63,7 +63,7 @@ def creature(token_id):
         'name': creature_name,
         'description': "Friendly OpenSea Creature that enjoys long swims in the ocean.",
         'image': image_url,
-        'external_url': 'https://openseacreatures.io/%s' % token_id,
+        'external_url': 'https://example.com/?token_id=%s' % token_id,
         'attributes': attributes
     })
 
@@ -80,7 +80,7 @@ def box(token_id):
         'name': "Creature Loot Box",
         'description': "This lootbox contains some OpenSea Creatures! It can also be traded!",
         'image': image_url,
-        'external_url': 'https://openseacreatures.io/%s' % token_id,
+        'external_url': 'https://example.com/?token_id=%s' % token_id,
         'attributes': attributes
     })
 
@@ -114,7 +114,7 @@ def factory(token_id):
         'name': name,
         'description': description,
         'image': image_url,
-        'external_url': 'https://openseacreatures.io/%s' % token_id,
+        'external_url': 'https://example.com/?token_id=%s' % token_id,
         'attributes': attributes
     })
 
